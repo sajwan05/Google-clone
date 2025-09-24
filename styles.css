@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+img {
+    max-width: 100%;
+
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+input {
+    width: 100%;
+    min-height: 2rem;
+    border-radius: 8px;
+    margin-block: 1em;
+}
+
+button {
+    display: inline-block;
+    border: 0;
+    padding: .75em .5em;
+    border-radius: .8em;
+    cursor: pointer;
+} 
